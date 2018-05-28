@@ -1,0 +1,54 @@
+//------------About Section-------------
+
+.block-shadow {
+	box-shadow: 4px 4px 10px 4px #cbcbcb;
+}
+
+.section-title {
+	font-size: 2rem;
+	line-height: 2.2rem;
+	color: $primary;
+	text-transform: uppercase;
+}
+
+.section-title:after {
+	content: " ";
+	display: block;
+	background-color: $primary;
+	width: 15rem;
+	height: 1px;
+	margin: 1rem auto 0 auto;
+}
+
+.about-project {
+	color: $text-color;
+	@media (min-width: 567px) {
+		width: 80%;
+	}
+	@media (min-width: 992px) {
+		width: 60%;
+	}
+	p {
+		padding-bottom: 2rem;
+	}
+}
+.about-project:after {
+	content: " ";
+	height: 1px;
+	color: $primary;
+	width: 10rem;
+	margin: 1rem auto;
+	background-color: $primary;
+	display: block;
+
+}
+
+
+.video {
+	@media (min-width: 768px) {
+		width: 65%;
+	}
+	@media (min-width: 992px) {
+		width: 60%;
+	}
+}

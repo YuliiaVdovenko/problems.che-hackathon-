@@ -1,0 +1,15 @@
+//-----------------Problems Section ------------------------
+
+.section-subtitle {
+	color: $primary ;
+}
+
+.problems-name:link, .problems-name:visited {
+	font-size: 1.2rem;
+	color: $primary;
+	img {
+		@media(min-width: 768px) {
+			width: 70%;
+		}
+	}
+}

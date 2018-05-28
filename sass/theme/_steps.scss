@@ -1,0 +1,17 @@
+//-----------Steps Section------------------
+
+.start-button {
+	cursor: pointer;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: $elementscolor;
+	padding: 0.5rem 1rem;
+	border: 1px solid $elementscolor;
+	border-radius: 0.5rem;
+}
+
+.steps-name {
+	color: $primary;
+	font-size: 1.2rem;
+}
+
